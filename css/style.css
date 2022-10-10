@@ -6,7 +6,7 @@ body,html{
     position:relative
 }
 
-.registro{
+#registro{
     border: 1px solid black ;
     border-radius: 5px;
     padding: 17px;
@@ -31,29 +31,28 @@ video {
   .logo{
     width: 300px;
   }
-  .button1{
-    background-color: black;
-    border: white;
+ input[type=submit]{
+    background-color:black;
+    border:none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 16px 32px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: fit-content;
+    float: left;
   }
-
-  .button2{
-    background-color: red;
-    border: white;
+input[type=reset]{
+    background-color:red;
+    border:none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 16px 32px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    float:right;
-  }
-
+    margin: 4px 2px;
+    cursor: pointer;
+    width: fit-content;
+    float: right;
+}
   input{
     width: 100%;
     padding: 12px 20px;
